@@ -1,3 +1,7 @@
+[jennings_servers]
 192.168.70.21
 192.168.70.24
 192.168.70.35
+
+[jennings_servers:vars]
+ansible_python_interpreter=/usr/bin/python3
