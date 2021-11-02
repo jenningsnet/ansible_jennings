@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+  
+  - name: update repository index and upgrade linux servers.
+    apt:
+      update_cache: yes
+      upgrade: dist
